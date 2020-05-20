@@ -1,5 +1,4 @@
 azure-functions
-azure-storage
 azure-storage-blob
 flake8
 requests

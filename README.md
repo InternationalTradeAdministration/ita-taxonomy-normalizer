@@ -1,14 +1,18 @@
+[![CircleCI](https://circleci.com/gh/InternationalTradeAdministration/ita-taxonomy-normalizer/tree/master.svg?style=svg)](https://circleci.com/gh/InternationalTradeAdministration/ita-taxonomy-normalizer/tree/master)
+[![Maintainability](https://api.codeclimate.com/v1/badges/0527c50224cb66b8e576/maintainability)](https://codeclimate.com/github/InternationalTradeAdministration/ita-taxonomy-normalizer/maintainability)
+[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=InternationalTradeAdministration/ita-taxonomy-normalizer)](https://dependabot.com)
+
 # ITA Taxonomy Normalizer
 
 This project provides an Azure Function that periodically creates a single JSON document from the custom Taxonomy endpoint at https://api.trade.gov. It uploads that JSON file to a Blob in an Azure Container.
 
 ## Prerequisites
 
-- This project is tested against Python 3.8.
+- This project is tested against Python 3.7+ in [CircleCI](https://app.circleci.com/github/InternationalTradeAdministration/ita-taxonomy-normalizer/pipelines).
 
 ## Getting Started
 
-	git clone git@github.com:GovWizely/ita-taxonomy-normalizer.git
+	git clone git@github.com:InternationalTradeAdministration/ita-taxonomy-normalizer.git
 	cd ita-taxonomy-normalizer
 	mkvirtualenv -p /usr/local/bin/python3.8 -r requirements-test.txt ita-taxonomy-normalizer
 
