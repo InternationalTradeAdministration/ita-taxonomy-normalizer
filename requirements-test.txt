@@ -1,8 +1,8 @@
 -r requirements.txt
-flake8
-flake8-formatter-junit-xml
-flake8-import-order
-pytest
-pytest-cov
-pytest-mock
-vcrpy
+flake8==3.8.1
+flake8-formatter-junit-xml==0.0.6
+flake8-import-order==0.18.1
+pytest==5.4.2
+pytest-cov==2.8.1
+pytest-mock==3.1.0
+vcrpy==4.0.2
